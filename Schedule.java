@@ -80,7 +80,7 @@ public class Schedule extends JFrame {
                            
                                 try {
                                       // Connecting database and deleting course
-                                    Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://eu-cdbr-azure-west-b.cloudapp.net:3306/harmaala_ella", "b13c4327297c36", "6591036a");
+                                    Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://eu-cdbr-azure-west-b.cloudapp.net:3306/lastname_firstname", "username", "password");
                                     PreparedStatement ps = (PreparedStatement) conn.prepareStatement("delete from courses where courseName='"+selected+"' ");
                                     ps.executeUpdate();
                                 }
