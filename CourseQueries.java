@@ -9,9 +9,9 @@ import java.util.ArrayList;
 // This class manages database operations
 public class CourseQueries {
 	// DB connection details
-	private static final String URL = "jdbc:mysql://eu-cdbr-azure-west-b.cloudapp.net:3306/harmaala_ella";
-	private static final String USERNAME = "b13c4327297c36";
-	private static final String PASSWORD = "6591036a";
+	private static final String URL = "jdbc:mysql://eu-cdbr-azure-west-b.cloudapp.net:3306/lastname_firstname";
+	private static final String USERNAME = "username";
+	private static final String PASSWORD = "password";
 
 	private Connection connection = null;
 	private static PreparedStatement selectAllCourses = null;
