@@ -6,7 +6,7 @@ Schedule Courses with input, edit and delete
 3. Credits
 4. License
 ----------------------------------------------------------------------------------
-1. Download the files from GitHub repository. Fill in your own database information (marked in the code). Run the sql-file with sql-client to create the database and example data. Open the application with IDE such as Eclipse and run the Schedule.java.
+1. Download the files from GitHub repository. Fill in your own database information (Schedule.java row 83, CourseQueries.java rows 12-14). Run the sql-file with sql-client to create the database and example data. Open the application with IDE such as Eclipse and run the Schedule.java.
 
 2. Use the application to add, edit and delete courses with buttons.
 
